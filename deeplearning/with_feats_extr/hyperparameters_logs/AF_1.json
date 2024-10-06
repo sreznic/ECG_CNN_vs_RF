@@ -1,0 +1,41 @@
+{
+  "best_hyperparams": [
+    {
+      "num_of_dense_layers": 6,
+      "add_pooling": 1,
+      "dropout_rate": 0.1,
+      "learning_rate": 0.01
+    },
+    {
+      "num_of_dense_layers": 2,
+      "add_pooling": 0,
+      "dropout_rate": 0.2,
+      "learning_rate": 0.01
+    },
+    {
+      "num_of_dense_layers": 5,
+      "add_pooling": 0,
+      "dropout_rate": 0.3,
+      "learning_rate": 0.001
+    },
+    {
+      "num_of_dense_layers": 3,
+      "add_pooling": 0,
+      "dropout_rate": 0.1,
+      "learning_rate": 0.001
+    },
+    {
+      "num_of_dense_layers": 6,
+      "add_pooling": 0,
+      "dropout_rate": 0.0,
+      "learning_rate": 0.0001
+    }
+  ],
+  "best_accuracies": [
+    0.8701435923576355,
+    0.8697212934494019,
+    0.8697212934494019,
+    0.8697212934494019,
+    0.869087815284729
+  ]
+}

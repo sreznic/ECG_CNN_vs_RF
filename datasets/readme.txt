@@ -1,0 +1,3 @@
+1. Download the PhysioNet data from https://physionet.org/content/challenge-2020/1.0.2/ and put all the datasets (cpsc_2018, cpsc_2018_etra, georgia, ptb, ptb-xl, st_petersburg_incart) into this folder.
+
+2. Run the data_split_train.py first to get the training/testing split. Then, run data_split_dl.py to get the training/val split for the DL part. Since DL does not use cross-validation, the split for training/val is different than for CML 

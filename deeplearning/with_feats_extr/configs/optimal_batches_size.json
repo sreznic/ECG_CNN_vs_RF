@@ -1,0 +1,12 @@
+{
+    "dataset_path": "D:\\research_old\\research_large_files\\card_challenge\\training",
+    "description_file_name": "dl_train_description.json",
+    "val_description_file_name": "dl_val_description.json",
+    "test_description_file_name": "test_description.json",
+    "whole_description_file_name": "dataset_description.json",
+    "save_log_path": "deeplearning/with_feats_extr/logs",
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "record_len": 7000,
+    "epochs": 30
+}

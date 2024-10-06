@@ -1,0 +1,46 @@
+{
+  "best_hyperparams": [
+    {
+      "num_of_dense_layers": 5,
+      "add_pooling": 0,
+      "dropout_rate": 0.2,
+      "num_of_signal_dense_layers": 2,
+      "learning_rate": 0.001
+    },
+    {
+      "num_of_dense_layers": 4,
+      "add_pooling": 1,
+      "dropout_rate": 0.2,
+      "num_of_signal_dense_layers": 2,
+      "learning_rate": 0.01
+    },
+    {
+      "num_of_dense_layers": 6,
+      "add_pooling": 1,
+      "dropout_rate": 0.1,
+      "num_of_signal_dense_layers": 0,
+      "learning_rate": 0.001
+    },
+    {
+      "num_of_dense_layers": 4,
+      "add_pooling": 0,
+      "dropout_rate": 0.1,
+      "num_of_signal_dense_layers": 2,
+      "learning_rate": 0.0001
+    },
+    {
+      "num_of_dense_layers": 5,
+      "add_pooling": 1,
+      "dropout_rate": 0.2,
+      "num_of_signal_dense_layers": 2,
+      "learning_rate": 0.01
+    }
+  ],
+  "best_accuracies": [
+    0.8937922120094299,
+    0.8918918967247009,
+    0.8916807174682617,
+    0.8916807174682617,
+    0.8899915814399719
+  ]
+}

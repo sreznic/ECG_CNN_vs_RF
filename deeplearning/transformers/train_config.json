@@ -1,0 +1,17 @@
+{
+    "arrhythmia_label": "AF",
+    "record_len": 10000,
+    "dataset_path": "D:\\research_old\\research_large_files\\card_challenge\\training",
+    "train_description_file_name": "dl_train_description.json",
+    "val_description_file_name": "dl_val_description.json",
+    "test_description_file_name": "test_description.json",
+    "whole_description_file_name": "dataset_description.json",
+    "train_batches": 700,
+    "val_batches": 300,
+    "test_batches": 300,
+    "epoch_num": 200,
+    "debug_num_batches": 50,
+    "debug_epoch_num": 30,
+    "log_path": "deeplearning/transformers/logs",
+    "leads": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+}

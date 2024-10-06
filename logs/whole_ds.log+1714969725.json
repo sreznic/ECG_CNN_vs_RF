@@ -1,0 +1,13 @@
+{
+  "start_time": 1714969725.6373699,
+  "number_of_records": 43101,
+  "config": {
+    "dataset_path": "D:\\research_old\\research_large_files\\card_challenge\\training",
+    "description_file_name": "dataset_description.json",
+    "extract_feats_path": "features/2020_all/whole_ds_7000.csv",
+    "is_parallel": "True",
+    "supress_warnings": "True",
+    "log_name": "whole_ds.log"
+  },
+  "end_time": 1714979401.0869431
+}

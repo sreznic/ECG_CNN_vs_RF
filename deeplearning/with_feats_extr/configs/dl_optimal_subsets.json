@@ -1,0 +1,22 @@
+{
+    "dataset_path": "D:\\research_old\\research_large_files\\card_challenge\\training",
+    "description_file_name": "dl_train_description.json",
+    "val_description_file_name": "dl_val_description.json",
+    "test_description_file_name": "test_description.json",
+    "features_path": "deeplearning/with_feats_extr/features_2",
+    "arrhythmia_label": "AF",
+    "feats_num": 32,
+    "hyperparameters_path": "deeplearning/with_feats_extr/configs/hyperparams.json",
+    "batches": {
+        "train": 700,
+        "val": 300,
+        "test": 300
+    },
+    "epochs": 12,
+    "repeat_times": 10,
+    "log_path": "optimal_subsets/dl/AF",
+    "shap_instances": {
+        "train": 250,
+        "val": 250
+    }
+}
